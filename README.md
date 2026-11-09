@@ -1,7 +1,7 @@
 ## Trabajo práctico INTEGRADOR de la asignatura DCI ##
-Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
+Este repositorio contiene el trabajo práctico final para la asignatura "Diseño de Circuitos Impresos" de la Carrera de Especialización en Sistemas Embebidos de la FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
+* Autor: Luca Mauricio Lazcano
 * Título corto del trabajo:  XXXXCOMPLETARXXXX
 * Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
 * Cursada: OCT-NOV-DIC 2026
