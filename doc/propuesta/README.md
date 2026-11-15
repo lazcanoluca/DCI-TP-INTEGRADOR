@@ -8,4 +8,8 @@ La información sobre el diseño fue obtenida principalmente de [STM32-base](htt
 
 ### Vista superior
 
+![Vista superior](STM32F411CEU6_WeAct_Black_Pill_V3.0-2.jpg)
+
 ### Vista inferior
+
+![Vista inferior](STM32F411CEU6_WeAct_Black_Pill_V3.0-3.jpg)
