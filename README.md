@@ -2,16 +2,13 @@
 Este repositorio contiene el trabajo práctico final para la asignatura "Diseño de Circuitos Impresos" de la Carrera de Especialización en Sistemas Embebidos de la FIUBA.
 
 * Autor: Luca Mauricio Lazcano
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
+* Título corto del trabajo: Placa de desarrollo STM32F401CE "Black Pill"
+* Descripción: Placa de desarrollo basada en el microprocesador STM32F401CE para experimentación y prototipado rápido de proyectos.
 * Cursada: OCT-NOV-DIC 2026
 
-
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
 
 ## Estructura del TP INTEGRADOR ##
 
