@@ -2,8 +2,8 @@
 Este repositorio contiene el trabajo práctico final para la asignatura "Diseño de Circuitos Impresos" de la Carrera de Especialización en Sistemas Embebidos de la FIUBA.
 
 * Autor: Luca Mauricio Lazcano
-* Título corto del trabajo: Placa de desarrollo STM32F401CE "Black Pill"
-* Descripción: Placa de desarrollo basada en el microprocesador STM32F401CE para experimentación y prototipado rápido de proyectos.
+* Título corto del trabajo: Réplica placa de desarrollo STM32F401CE "Black Pill"
+* Descripción: Réplica de placa de desarrollo "WeAct Black Pill v3.0", basada en el microprocesador STM32F401CE, para experimentación y prototipado de proyectos.
 * Cursada: OCT-NOV-DIC 2026
 
 ## Licencia de este trabajo ##
