@@ -22,7 +22,7 @@ Se propone y se pide utilizar la siguiente estructura.
   * Dibujos adicionales.
   * Fotos de los prototipos.
   * Presupuestos, cotizaciones.
-* info: Toda la iformación recolectada, principalmente de terceros, como por ejemplo:
+* info: Toda la información recolectada, principalmente de terceros, como por ejemplo:
   * Hojas de datos.
   * Notas de aplicación.
   * Info de productos comerciales.
