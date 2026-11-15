@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6498c981-3333-48ee-aeba-2cc9fa54bcd4")
+	(paper "A4")
+	(title_block
+		(title "Réplica placa de desarrollo STM32F401CE \"Black Pill\"")
+		(date "2026-11-15")
+		(rev "v0.0.1")
+		(company "CESE - FIUBA")
+		(comment 1 "License: CERN-OHL-S-2.0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
