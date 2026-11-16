@@ -2465,6 +2465,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "blackpill:AP7343-33"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP7343-33"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/datasheet/download/AP7343.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP7343-33_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP7343-33_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2859,6 +3051,34 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 210.82 12.7)
+		(end 284.48 59.69)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "df6e174a-c20e-4c19-b8c0-01b6f2a4a9ef")
+	)
+	(text "Regulador de tensión - 5V a 3.3V"
+		(exclude_from_sim no)
+		(at 247.142 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a616a1fe-5ac7-4294-80da-4fda3625c70a")
+	)
+	(junction
+		(at 238.76 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c408a9b-d845-42d8-9d1f-ac374f6e9ef9")
+	)
 	(junction
 		(at 53.34 44.45)
 		(diameter 0)
@@ -2884,16 +3104,34 @@
 		(uuid "8095aee7-9d86-4461-b531-85e31d48376c")
 	)
 	(junction
+		(at 231.14 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81daaf0a-9d10-486c-9ba8-3c36102956a7")
+	)
+	(junction
 		(at 86.36 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ccac6ed-74c4-481b-8c77-da6502b626cb")
 	)
 	(junction
+		(at 264.16 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1fe70f2-cbe8-4671-8373-88db156f4fe2")
+	)
+	(junction
 		(at 41.91 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2b0c684-021b-4538-8eba-485ca3219df1")
+	)
+	(junction
+		(at 247.65 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab765f42-69eb-41c1-955c-a24151ec4a6a")
 	)
 	(junction
 		(at 76.2 151.13)
@@ -2932,6 +3170,16 @@
 			(type default)
 		)
 		(uuid "04f6f399-d6ea-4ede-b676-b7c6bd5ac88f")
+	)
+	(wire
+		(pts
+			(xy 231.14 30.48) (xy 231.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d4fa98-f7ad-41a1-b422-fb241aad9874")
 	)
 	(wire
 		(pts
@@ -3025,6 +3273,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 31.75) (xy 240.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c43cf71-470d-4108-bfc4-3d5b44bd1959")
+	)
+	(wire
+		(pts
 			(xy 133.35 101.6) (xy 137.16 101.6)
 		)
 		(stroke
@@ -3052,6 +3310,46 @@
 			(type default)
 		)
 		(uuid "42acc200-1e81-42f5-8ddf-5e410ab03b3d")
+	)
+	(wire
+		(pts
+			(xy 231.14 40.64) (xy 231.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ee20d0-a3ad-42fd-be0a-91a07bcf27c0")
+	)
+	(wire
+		(pts
+			(xy 231.14 33.02) (xy 231.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bb73ec-32f9-4c29-9a2b-ea444a657db9")
+	)
+	(wire
+		(pts
+			(xy 238.76 31.75) (xy 238.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567a9668-89d1-4077-871b-984f477834c0")
+	)
+	(wire
+		(pts
+			(xy 231.14 31.75) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5715bc1d-dfd2-48e3-b1d7-a8c2863f16ae")
 	)
 	(wire
 		(pts
@@ -3105,6 +3403,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 34.29) (xy 238.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6562fc76-e9a8-49b7-a44b-cddf60cc50c0")
+	)
+	(wire
+		(pts
 			(xy 59.69 142.24) (xy 57.15 142.24)
 		)
 		(stroke
@@ -3155,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 43.18) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5afb15-bbed-4fcb-8860-9a36db199b78")
+	)
+	(wire
+		(pts
 			(xy 53.34 53.34) (xy 53.34 55.88)
 		)
 		(stroke
@@ -3162,6 +3480,16 @@
 			(type default)
 		)
 		(uuid "842952e9-a9a0-4548-bd9e-280d335b5619")
+	)
+	(wire
+		(pts
+			(xy 264.16 43.18) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f1cb9f-e41e-4057-8260-f0b632077dd8")
 	)
 	(wire
 		(pts
@@ -3222,6 +3550,36 @@
 			(type default)
 		)
 		(uuid "94cfe68d-5ff1-42e8-b2f5-587c8ec679ba")
+	)
+	(wire
+		(pts
+			(xy 247.65 43.18) (xy 264.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95371032-3057-486d-8ff5-7d3e1ccb77b7")
+	)
+	(wire
+		(pts
+			(xy 264.16 30.48) (xy 264.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997214a0-5571-4743-b111-7df5cd41c653")
+	)
+	(wire
+		(pts
+			(xy 247.65 41.91) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfbf5ee-3ead-4d05-b380-54e12f602a2b")
 	)
 	(wire
 		(pts
@@ -3305,6 +3663,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 43.18) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c538a3ad-e26c-4f3f-9c03-8fbaa3114a09")
+	)
+	(wire
+		(pts
 			(xy 41.91 78.74) (xy 59.69 78.74)
 		)
 		(stroke
@@ -3332,6 +3700,26 @@
 			(type default)
 		)
 		(uuid "d41c1b4e-908e-408f-a9d1-1f27250a790a")
+	)
+	(wire
+		(pts
+			(xy 264.16 31.75) (xy 255.27 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97d984a-05c1-4ddb-ad8e-0a9c2e276966")
+	)
+	(wire
+		(pts
+			(xy 264.16 33.02) (xy 264.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd46f740-25f5-4cfe-afb4-4ce8e9625103")
 	)
 	(wire
 		(pts
@@ -3392,6 +3780,95 @@
 			(justify left bottom)
 		)
 		(uuid "3e15c916-6b7e-4343-90b7-d500fdb46435")
+	)
+	(symbol
+		(lib_id "blackpill:AP7343-33")
+		(at 247.65 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "011f15da-1575-403a-a980-1f80ca13973f")
+		(property "Reference" "U2"
+			(at 247.65 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7343-33"
+			(at 247.65 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 247.65 26.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP7343.pdf"
+			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5"
+			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ee4935bf-7936-4352-b8c8-54e8aab7519d")
+		)
+		(pin "2"
+			(uuid "07ad2f2c-f432-4169-9843-a3b9ed6b883f")
+		)
+		(pin "4"
+			(uuid "58aa4d0b-4024-469b-88d7-f0cc0c4a0536")
+		)
+		(pin "1"
+			(uuid "ce185565-8af9-46bd-ace0-52662f167edc")
+		)
+		(pin "5"
+			(uuid "2f9b2541-2853-4af6-99a3-cecd02e357aa")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3466,6 +3943,84 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc9c899-e4a0-4add-8dcc-63ca73ed4b78")
+		(property "Reference" "#PWR015"
+			(at 247.65 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81f18d32-c7c5-4261-9734-5ff0d43334d1")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4236,6 +4791,84 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 264.16 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e045680-edf8-4a4a-ada7-145f4c9326ac")
+		(property "Reference" "#PWR017"
+			(at 264.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 264.16 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 264.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4e79aa9-b27b-42f3-84c4-42ad373f442e")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 62.23 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -4307,6 +4940,88 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef5f3f7-89ca-4a67-9dc6-3eb69f70ca91")
+		(property "Reference" "C7"
+			(at 234.95 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.0 uF"
+			(at 234.95 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.1052 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06d93f0e-1761-414c-8497-ec428980aaf9")
+		)
+		(pin "2"
+			(uuid "4e097513-363b-4912-89ec-4c3f386d08dc")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5083,6 +5798,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 264.16 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c96e6cb9-4816-4a5c-a581-df3c9bf9ade7")
+		(property "Reference" "C8"
+			(at 267.97 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.0 uF"
+			(at 267.97 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.1252 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1959ebdb-62b8-4ab0-8e68-2cb1a703ae9e")
+		)
+		(pin "2"
+			(uuid "e63f2de3-26f3-4b9c-b854-e373e990859a")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 153.67 0)
 		(unit 1)
@@ -5472,6 +6269,84 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 231.14 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f790afaf-652b-4701-8b85-48fd9149d8a4")
+		(property "Reference" "#PWR016"
+			(at 231.14 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 231.14 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 231.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2887424b-3705-431c-93a8-0833cf992eb4")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
