@@ -2102,6 +2102,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4470,6 +4671,18 @@
 		(uuid "987a938d-deb1-4cbb-8074-4a13a975d812")
 	)
 	(rectangle
+		(start 161.29 69.85)
+		(end 195.58 111.76)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a9d9da37-530f-41a0-8065-04cc227e3027")
+	)
+	(rectangle
 		(start 232.41 66.04)
 		(end 281.94 111.76)
 		(stroke
@@ -4559,6 +4772,16 @@
 		)
 		(uuid "81a3912a-5c87-493b-a1d7-6a3ee29d7347")
 	)
+	(text "Indicadores LED"
+		(exclude_from_sim no)
+		(at 169.418 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87cbf70f-449c-403c-8856-2c3f6bf143a1")
+	)
 	(text "Regulador de tensión - 5V a 3.3V"
 		(exclude_from_sim no)
 		(at 236.982 20.574 0)
@@ -4588,6 +4811,26 @@
 			)
 		)
 		(uuid "c59b8092-d212-456f-9b1c-eccf375200de")
+	)
+	(text "LED Power"
+		(exclude_from_sim no)
+		(at 188.722 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca79d34e-ad8c-4cf0-8f19-f9aeeab6329e")
+	)
+	(text "LED PC13"
+		(exclude_from_sim no)
+		(at 174.244 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dabce29e-b997-4209-bc90-a35a1d73accc")
 	)
 	(text "Interfaz USB-C"
 		(exclude_from_sim no)
@@ -4738,6 +4981,16 @@
 	(no_connect
 		(at 135.89 62.23)
 		(uuid "eba2d57f-0079-4c58-8f81-e33821d6e4cf")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d7a6bd-43f3-42d6-980b-1c04f27fb7de")
 	)
 	(wire
 		(pts
@@ -4971,6 +5224,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 81.28) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6086e6-5f8b-47d3-b72c-47166d51fd74")
+	)
+	(wire
+		(pts
 			(xy 29.21 99.06) (xy 33.02 99.06)
 		)
 		(stroke
@@ -5048,6 +5311,16 @@
 			(type default)
 		)
 		(uuid "3aaa170b-c57d-42e8-a92a-4c67b59df56f")
+	)
+	(wire
+		(pts
+			(xy 93.98 130.81) (xy 97.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3de1f1-22f0-4651-be6c-107ff6fe7900")
 	)
 	(wire
 		(pts
@@ -5221,6 +5494,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 101.6) (xy 168.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d727310-a549-449a-aa2c-d5e1d46d4611")
+	)
+	(wire
+		(pts
 			(xy 50.8 152.4) (xy 50.8 153.67)
 		)
 		(stroke
@@ -5301,6 +5584,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 91.44) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df502c0-151c-4634-a7d0-b60d91fe1877")
+	)
+	(wire
+		(pts
 			(xy 50.8 60.96) (xy 50.8 63.5)
 		)
 		(stroke
@@ -5348,6 +5641,16 @@
 			(type default)
 		)
 		(uuid "7d5afb15-bbed-4fcb-8860-9a36db199b78")
+	)
+	(wire
+		(pts
+			(xy 29.21 93.98) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c23c7f-3366-4d9e-865b-ebc882e832f9")
 	)
 	(wire
 		(pts
@@ -5741,6 +6044,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 101.6) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76bc708-8d51-4255-84b8-e0fa0e254a7b")
+	)
+	(wire
+		(pts
 			(xy 209.55 130.81) (xy 209.55 133.35)
 		)
 		(stroke
@@ -5858,6 +6171,16 @@
 			(type default)
 		)
 		(uuid "dd46f740-25f5-4cfe-afb4-4ce8e9625103")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9df3d7-8bd9-43e9-88d3-15dc3f84635f")
 	)
 	(wire
 		(pts
@@ -5990,12 +6313,12 @@
 		(uuid "fe0f4430-6d26-48c7-94ed-1eb45c4116a1")
 	)
 	(label "VB"
-		(at 93.98 133.35 0)
+		(at 93.98 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0abf10a4-853e-416d-9e36-dc38d81f71ba")
 	)
@@ -6028,6 +6351,16 @@
 			(justify right bottom)
 		)
 		(uuid "2abdd749-2973-42c9-83a8-e6173241d99e")
+	)
+	(label "PC13"
+		(at 168.91 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30e16710-a1c8-4e3c-9623-1f12fa88bf93")
 	)
 	(label "BOOT0"
 		(at 250.19 91.44 0)
@@ -6169,6 +6502,16 @@
 		)
 		(uuid "ad385986-afce-4397-997f-7d548210b603")
 	)
+	(label "PC13"
+		(at 29.21 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b27022fe-a57c-4051-b3cd-4f3076ba07f2")
+	)
 	(label "HSE_IN"
 		(at 168.91 130.81 180)
 		(effects
@@ -6218,6 +6561,16 @@
 			(justify left bottom)
 		)
 		(uuid "f674a995-0e39-45e9-a41c-28be0ea70dfa")
+	)
+	(label "PC13"
+		(at 93.98 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8c83d0d-322d-4946-ad5d-85b673e7cacf")
 	)
 	(label "VREF+"
 		(at 29.21 81.28 180)
@@ -6333,6 +6686,84 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 168.91 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "059b8d60-9e7c-4b38-b91b-f16d035768ad")
+		(property "Reference" "#PWR032"
+			(at 168.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 168.91 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 168.91 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea09b282-b75c-452b-bac9-f008d95597f3")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9070,6 +9501,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 168.91 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "929c663f-37ad-45f6-9f80-1384acd0b9e5")
+		(property "Reference" "D3"
+			(at 172.72 98.1074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 172.72 100.6474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "097153ed-e6f9-4b84-805c-9ea85869bc03")
+		)
+		(pin "2"
+			(uuid "0f9b60ea-a6de-4891-b180-ed5c8dda9eb5")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 263.144 123.952 0)
 		(unit 1)
@@ -9142,6 +9666,88 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93cf7365-9063-4383-96d5-c027ce26fc60")
+		(property "Reference" "R5"
+			(at 171.45 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 171.45 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.132 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc1841c0-890b-4c89-904f-5bc4898acaf8")
+		)
+		(pin "1"
+			(uuid "9800c635-91d8-424a-8b33-8bcd3baf2dc4")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9223,6 +9829,84 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 182.88 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ffb428-76ee-4206-bc5f-a29e1463db3c")
+		(property "Reference" "#PWR031"
+			(at 182.88 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 182.88 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebac4ce4-85b8-4036-9084-b3d893f56a42")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9383,6 +10067,88 @@
 			(project "blackpill"
 				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afeae9b3-96f4-4b4b-b314-0aabdcaa3d04")
+		(property "Reference" "R6"
+			(at 185.42 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1 kΩ"
+			(at 185.42 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.102 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a36fc786-14ba-4590-93fc-2a9a0ef2e2ed")
+		)
+		(pin "2"
+			(uuid "1cd81f82-32d8-48cd-9650-3588b020b00d")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10677,6 +11443,177 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 182.88 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89da28d-dbd7-4374-99dc-d48adbf6a337")
+		(property "Reference" "#PWR030"
+			(at 182.88 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6270a6fa-d5d7-44a8-829f-d5251a1d505b")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 182.88 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edcf13b8-cf16-44d6-af40-6364dc8056c7")
+		(property "Reference" "D4"
+			(at 186.69 98.1074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 186.69 100.6474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f25ec6a3-8f8f-41ff-8c24-310df0f208a4")
+		)
+		(pin "1"
+			(uuid "117ffdb7-e196-4ac6-aa40-84a110e53cf8")
+		)
+		(instances
+			(project "blackpill"
+				(path "/6498c981-3333-48ee-aeba-2cc9fa54bcd4"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 30.48 151.13 0)
 		(unit 1)
@@ -11199,6 +12136,19 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group ""
+		(uuid "083b8dec-6a84-4b6b-b4d4-025e83993e97")
+		(members "00d7a6bd-43f3-42d6-980b-1c04f27fb7de" "059b8d60-9e7c-4b38-b91b-f16d035768ad"
+			"2c6086e6-5f8b-47d3-b72c-47166d51fd74" "30e16710-a1c8-4e3c-9623-1f12fa88bf93"
+			"5d727310-a549-449a-aa2c-d5e1d46d4611" "6df502c0-151c-4634-a7d0-b60d91fe1877"
+			"87cbf70f-449c-403c-8856-2c3f6bf143a1" "929c663f-37ad-45f6-9f80-1384acd0b9e5"
+			"93cf7365-9063-4383-96d5-c027ce26fc60" "a7ffb428-76ee-4206-bc5f-a29e1463db3c"
+			"a9d9da37-530f-41a0-8065-04cc227e3027" "afeae9b3-96f4-4b4b-b314-0aabdcaa3d04"
+			"c76bc708-8d51-4255-84b8-e0fa0e254a7b" "ca79d34e-ad8c-4cf0-8f19-f9aeeab6329e"
+			"dabce29e-b997-4209-bc90-a35a1d73accc" "dd9df3d7-8bd9-43e9-88d3-15dc3f84635f"
+			"e89da28d-dbd7-4374-99dc-d48adbf6a337" "edcf13b8-cf16-44d6-af40-6364dc8056c7"
 		)
 	)
 	(group ""
